@@ -1,0 +1,52 @@
+.certCont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.certTit{
+   color: rgb(42, 109, 236);
+  }
+
+.certCard {
+  width: 10vw;
+  border: solid black;
+  border-radius: 15px;
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  background-image: url(./../../assets/pattern.svg);
+}
+
+
+.imageDiv{
+  border: solid black;
+  border-radius: 15px;
+  padding: 0.2rem;
+  background-color: gray;
+  margin-bottom: 0.5rem;
+  height: 38vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.certImg {
+  width: 20vw;
+  height: 35vh;
+  justify-content: center;
+}
+
+.certDesc{
+    text-align: center;
+    height: 20vh;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin: 0;
+}

@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+.mainDiv{
+    display: flex;
+}
+.navDiv{
+    flex-basis: 95%;
+}
+.langDiv{
+   height: 10vh;
+   margin-top: 1.1rem;  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.lang{
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 0.2rem;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.langBtn {
+    font-family: "Noto Sans Display", sans-serif;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 10px;
+    background: linear-gradient( to right, var(--main-color) 50%, black 50%)  left / 200%;
+    transition: background-position 1s ease;
+    cursor: pointer;
+    border: none;
+    margin-right: 0.5rem;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .langBtn:hover {
+      background-position: right;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}

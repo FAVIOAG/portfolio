@@ -1,0 +1,49 @@
+.cardContainer{
+    display: flex;
+}
+
+.description{
+    text-align: center;
+}
+.services{
+    margin-left: 2rem;
+    text-align: center;
+    color: rgb(42, 109, 236)
+}
+
+.title{
+    margin-left: 2rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.cont{
+    display: flex;
+}
+
+.cardDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    transition: transform .5s;
+    flex-basis: 33%;
+  }
+
+  .cardDiv:hover{
+    transform: scale(1.2);
+    
+}
+
+.cardIcon{
+    transition: transform .5s;
+}
+
+.cardIcon {
+    transform:rotateX('360')
+}
+
+.cardTit{
+    color: black;
+}

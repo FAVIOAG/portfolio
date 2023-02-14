@@ -1,0 +1,21 @@
+.totalCont {
+  display: flex;
+ }
+
+.aboutImg {
+  max-width: 21vw;
+  max-height: 85h;
+  margin: 0;
+}
+
+.descriptionAbout {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.aboutTitle {
+  font-size: 3rem;
+  color: rgb(42, 109, 236);
+  text-align: center;
+}

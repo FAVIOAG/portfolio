@@ -1,0 +1,36 @@
+:root {
+  --main-color: rgb(42, 109, 236);
+}
+
+.secTit {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.descP {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.cardWCont {
+  display: flex;
+  gap: 1rem;
+}
+
+.cardW {
+  border: solid black;
+  border-radius: 15px;
+  flex-basis: 33%;
+  background-image: url(./../../assets/pattern.svg);
+}
+
+.mainCardTit {
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--main-color)
+}
+
+.cardP{
+    padding: 0.5rem;
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+:root {
+  --main-color: rgb(42, 109, 236);
+}
+
+.mainTit {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(42, 109, 236);
+}
+
+.latestCards {
+  display: flex;
+  gap: 1vw;
+}
+
+.latestCardA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-basis: 50%;
+  border: solid black;
+  border-radius: 15px;
+  background-image: url(./../../assets/pattern.svg);
+}
+
+.latestCardB {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: --main-color;
+  flex-basis: 50%;
+  border: solid black;
+  border-radius: 15px;
+  background-image: url(./../../assets/pattern.svg);
+}
+
+.imageCont {
+  max-width: 30vw;
+  max-height: 30vh;
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+  transition: transform 1s;
+}
+
+.latCardTit{
+  color: var(--main-color);
+}
+
+.imageCont:hover {
+  transform: scale(1.1);
+}
+
+.latestP {
+  width: 30vw;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.gitLink {
+  color: var(--main-color);
+  font-size: 5rem;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.gitLink:hover{
+  transform: scale(1.1);
+
+}
