@@ -1,7 +1,7 @@
 {
   "name": "miapp",
   "version": "0.1.0",
-  "homepage": "http://favioag.github.io/portfolio",
+  "homepage": "https://favioag.online",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.4.1",
