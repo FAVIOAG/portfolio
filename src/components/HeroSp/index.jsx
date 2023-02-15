@@ -25,7 +25,7 @@ const HeroSp = () => {
               </span>
               Escribime
             </a>
-            <a href= "https://drive.google.com/file/d/16Fw5N8km2cZ1kQpUmLQQft0hTyEDB5uX/view?usp=share_link" className="btn" target="_blank"> Descargar Cv</a>
+            <a href= "https://drive.google.com/file/d/120KB1y0EJiekY_QZyE7i2w7oP16QkzeE/view?usp=sharing" className="btn" target="_blank"> Descargar Cv</a>
           </div>
         </div>
         <div className='imgCont'>

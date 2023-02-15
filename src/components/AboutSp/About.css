@@ -3,8 +3,8 @@
  }
 
 .aboutImg {
-  max-width: 21vw;
-  max-height: 85h;
+  /* max- */width: 35vw;
+  max-height: 60vh;
   margin: 0;
 }
 
@@ -16,6 +16,7 @@
 
 .aboutTitle {
   font-size: 3rem;
+  padding-bottom: 2rem;
   color: rgb(42, 109, 236);
   text-align: center;
 }
