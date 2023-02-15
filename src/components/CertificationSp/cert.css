@@ -6,12 +6,11 @@
   padding: 2rem;
 }
 
-.certTit{
-   color: rgb(42, 109, 236);
-  }
+.certTit {
+  color: rgb(42, 109, 236);
+}
 
 .certCard {
-  width: 10vw;
   border: solid black;
   border-radius: 15px;
   flex-basis: 45%;
@@ -22,20 +21,17 @@
   background-image: url(./../../assets/pattern.svg);
 }
 
-
-.imageDiv{
+.imageDiv {
   border: solid black;
   border-radius: 15px;
   padding: 0.2rem;
   background-color: gray;
   margin-bottom: 0.5rem;
   height: 38vh;
-  width: 20vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .certImg {
   width: 20vw;
@@ -43,17 +39,61 @@
   justify-content: center;
 }
 
-.certDesc{
-    text-align: center;
-    height: 20vh;
-    font-size: 1.3rem;
-    font-weight: lighter;
-    margin: 0;
+.certDesc {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  margin: 0;
 }
 
-@media (max-width:800px){
-  .certCont{
+@media (max-width: 992px) {
+  .certCont {
     display: flex;
     flex-direction: column;
   }
+
+ .imageDiv{
+  width: 50vw;
+ }
+
+ .certImg{
+  width: 40vw;
+ }
+}
+
+@media (max-width: 688px){
+  .certCont {
+    display: flex;
+    flex-direction: column;
+  }
+
+ .imageDiv{
+  width: 50vw;
+  height: 30vh;
+ }
+
+ .certImg{
+  width: 40vw;
+  height: 27vh;
+
+}
+.certTit{
+  font-size: 1.3rem;
+}
+.certDesc{
+  font-size: 1rem;
+}
+}
+
+@media (max-width: 415px){
+  .imageDiv{
+    height: 20vh;
+   }
+
+   .certImg{
+    height: 19vh;
+  
+  }
+
+
 }
