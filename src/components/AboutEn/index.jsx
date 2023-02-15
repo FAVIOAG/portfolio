@@ -4,7 +4,7 @@ import picStand from './../../assets/picStand.jpg'
 
 const AboutEn = () => {
   return (
-    <div className="totalCont">
+    <div className="totalContAbout">
       <img src={picStand} className="aboutImg" alt="fotoDePie" />
       <div className="aboutText">
         <h1 className="aboutTitle">About me...</h1>
@@ -13,7 +13,7 @@ const AboutEn = () => {
           an electronical tecnhician and nowadays in my job, in touch with
           telecommunications and new technologies. Learning programming
           languages, and frameworks, to improve and develop myself
-          professionally and get into new working challenges{" "}
+          professionally and get into new working challenges
         </h2>
       </div>
     </div>

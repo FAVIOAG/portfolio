@@ -29,6 +29,7 @@ a {
   font-size: 1.2rem;
   transition: transform .5s;
   cursor: pointer;
+  padding: 1.3rem;
 }
 
 .navigation:hover{
@@ -59,6 +60,10 @@ a {
   margin-right: 0.2rem;
 }
 
+.hambMenu{
+  display: none;
+}
+
 @media (max-width:1100px){
 
   .contactButton{
@@ -84,7 +89,7 @@ a {
   background-color: transparent;
   border: none;
   color: black;
-  font-size: 24px;
+  font-size: 1rem;
   cursor: pointer;
 }
   .menu ul {
@@ -100,4 +105,8 @@ padding: 0.2rem;
     display: none;
   }
    
+  .hambMenu{
+    display: block;
+  }
 }
+
