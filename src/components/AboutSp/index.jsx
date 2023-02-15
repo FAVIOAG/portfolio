@@ -4,7 +4,7 @@ import picStand from './../../assets/picStand.jpg'
 const AboutSp = () => {
 
 return (
-<div className='totalCont'>
+<div className='totalContAbout'>
     <img src={picStand} className='aboutImg' alt='fotoDePie' />
     <div className='aboutText'>
         <h1 className='aboutTitle'>Sobre mi...</h1>
@@ -12,8 +12,6 @@ return (
     </div>
 </div>
 )
-
-
 
 }
 

@@ -1,4 +1,4 @@
-import "./Services.css";
+import "./../ServicesSp/Services.css";
 import React from "react";
 import {TfiWorld } from "react-icons/tfi";
 import {RxUpdate} from 'react-icons/rx'

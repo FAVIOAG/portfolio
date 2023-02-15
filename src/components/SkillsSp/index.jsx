@@ -44,7 +44,7 @@ const SkillsSp = () => {
         <FaReact />
         </h3>
       </div>
-      <div className='card'>
+      <div className='cardFive'>
         <h1 className='cardTitle'>GitHub</h1>
         <h2 className='cardDescription'>
         Almacenamiento virtual de proyectos y control de versiones.

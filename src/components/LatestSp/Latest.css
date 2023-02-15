@@ -57,8 +57,7 @@
   width: 30vw;
   text-align: center;
   justify-content: center;
-  font-weight: bold;
-}
+ }
 
 .gitLink {
   color: var(--main-color);
@@ -70,4 +69,30 @@
 .gitLink:hover{
   transform: scale(1.1);
 
+}
+
+@media (min-width: 600px) and (max-width: 900px){
+
+  .latCardTit{
+    font-size: 1rem;
+  }
+
+  .gitLink{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 599px){
+
+  .latCardTit{
+    font-size: 0.8rem;
+  }
+
+  .gitLink{
+    font-size: 1.5rem;
+  }
+
+  .latestP{
+    font-size: 0.7rem;
+  }
 }

@@ -50,3 +50,10 @@
     font-weight: lighter;
     margin: 0;
 }
+
+@media (max-width:800px){
+  .certCont{
+    display: flex;
+    flex-direction: column;
+  }
+}

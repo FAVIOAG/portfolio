@@ -34,3 +34,28 @@
     padding: 0.5rem;
     text-align: center;
 }
+
+@media (min-width: 300px) and (max-width: 600px){
+
+ .mainTit{
+  font-size: 1.3rem;
+ }
+ 
+  .secTit {
+    font-size: 1rem;}
+
+    
+.descP {
+  font-size: 0.7rem;}
+
+  
+  
+}
+
+@media (max-width: 930px){
+.cardWCont{
+  display: flex;
+  flex-direction: column;
+}
+
+}

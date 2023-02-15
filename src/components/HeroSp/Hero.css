@@ -1,90 +1,129 @@
-*{
-    font-family: "Noto Sans Display", sans-serif;
+* {
+  font-family: "Noto Sans Display", sans-serif;
 }
 
 :root {
-    --main-color: rgb(42, 109, 236);
-  }
-
-.totalCont{
-display: flex;
-margin-top: 2rem;
-height: 70vh;
-
-}
-.firstCont{
-    margin-left: 3rem;
-    height: 70vh;
-    animation: animA 2s linear 0s 1  normal;
+  --main-color: rgb(42, 109, 236);
 }
 
-  .btnCont{
-display: flex;
-flex-direction: row;
-padding: 1rem;
-
+.totalCont {
+  display: flex;
+  margin-top: 2rem;
+  height: 70vh;
+}
+.firstCont {
+  margin-left: 3rem;
+  height: 70vh;
+  animation: animA 2s linear 0s 1 normal;
 }
 
-.paragraph{
-    color: var(--main-color)
+.btnCont {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
 }
 
-.wabtn{
-    color: rgb(27, 196, 27);
-    font-size: 1.5rem;
-    padding-top: 5px
-  }
+.paragraph {
+  color: var(--main-color);
+}
 
+.wabtn {
+  color: rgb(27, 196, 27);
+  font-size: 1.5rem;
+  padding-top: 5px;
+}
 
 .btn {
-    font-family: "Noto Sans Display", sans-serif;
-    color: white;
-    padding: 1rem;
-    border-radius: 15px;
-    background: linear-gradient( to right, var(--main-color) 50%, black 50%)  left / 200%;
-    transition: background-position 1s ease;
-    display: flex;
-    align-items: center;
-    margin-left: 3rem;
-    cursor: pointer;
-  }
-
-  .btn:hover{
-    background-position: right;
-  }
-
-  .imgCont{
-  height: 70vh; 
-  animation: animB 2s linear 0s 1  normal;
+  font-family: "Noto Sans Display", sans-serif;
+  color: white;
+  padding: 1rem;
+  border-radius: 15px;
+  background: linear-gradient(to right, var(--main-color) 50%, black 50%) left /
+    200%;
+  transition: background-position 1s ease;
+  display: flex;
+  align-items: center;
   margin-left: 3rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-position: right;
+}
+
+.imgCont {
+  height: 70vh;
+  animation: animB 2s linear 0s 1 normal;
+  margin-left: 3rem;
+ 
+}
+
+.devImg {
+  max-height: 70vh;
+  margin-left: 6rem;
+}
+
+@keyframes animA {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
   }
 
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animB {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes animBSmall {
+  0% {
+    transform: translateX(0);
+  }
+}
+
+@media (min-width: 450px) and (max-width: 992px) {
+  .totalCont {
+    background-image: url(./../../assets/sitPic.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat:no-repeat;
+    position: relative;
+   }
+
+   .totalCont::before {
+    content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  background-color: black;}
+    
+    .totalCont .firstCont {
+      position: relative;
+      z-index: 1;
+      color: white;
+    }
+
+    .paragraph{
+   text-shadow: 1px  1px 0 black;
+    }
   .devImg{
-    max-height: 70vh;
-    margin-left: 6rem;
-
+    display: none;
   }
 
-  @keyframes animA {
-    0% {
-      opacity: 0;
-      transform: translateX(-50px);
-    }
   
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  @keyframes animB {
-    0% {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-  
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
+}

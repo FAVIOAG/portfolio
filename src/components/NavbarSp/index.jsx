@@ -1,7 +1,7 @@
-import "./Navbar.css";
+import "./../NavbarEn/Navbar.css";
 import React from "react";
 import { FaPaperPlane } from "react-icons/fa";
-const NavbarSp = () => {
+const NavbarSp = () => {  
   return (
     <div className="container">
       <a href="#" className="logo">

@@ -1,4 +1,4 @@
-import "./About.css";
+import "./../AboutSp/About.css";
 import React from "react";
 import picStand from './../../assets/picStand.jpg'
 
