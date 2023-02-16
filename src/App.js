@@ -21,7 +21,8 @@ import {
 } from "./components/";
 import React, { useState } from "react";
 
-function App() {
+
+function App({ Component, pageProps }) {
   let [lng, setLng] = useState("sp");
   let showLng = () => {
     setLng(lng === "sp" ? "en" : "sp");

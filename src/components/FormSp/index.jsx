@@ -1,7 +1,7 @@
-import React from "react";
-import './form.css'
-function FormSp() {
-  return (
+import "./form.css";
+
+const FormSp = () => {
+return (
     <div className='formCont'>
       <div className='formIntro'>
         <h1 className='formh1'>Contactame!</h1>
@@ -18,7 +18,7 @@ function FormSp() {
         </form>
         </div>
     </div>
-  );
-}
+  )}
 
-export { FormSp };
+ export { FormSp };
+ 
