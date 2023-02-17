@@ -41,22 +41,22 @@ const NavbarSp = () => {
           <div className="menu" onMouseLeave={closeMenu}>
             <ul>
               <li>
-                <a href="#aboutSp" className="navigationHam">
+                <a href="#aboutSp" className="navigationHamb">
                   Acerca de...
                 </a>
               </li>
               <li>
-                <a href="#servicesSp" className="navigationHam">
+                <a href="#servicesSp" className="navigationHamb">
                   Servicios
                 </a>
               </li>
               <li>
-                <a href="#latestSp" className="navigationHam">
+                <a href="#latestSp" className="navigationHamb">
                   Portfolio
                 </a>
               </li>
               <li>
-                <a href="#whySp" className="navigationHam">
+                <a href="#whySp" className="navigationHamb">
                   Referencias
                 </a>
               </li>

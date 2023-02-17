@@ -41,22 +41,22 @@ const NavbarEn = () => {
           <div className="menu" onMouseLeave={closeMenu}>
             <ul>
               <li>
-                <a href="#aboutEn" className="navigation">
+                <a href="#aboutEn" className="navigationHamb">
                   About me
                 </a>
               </li>
               <li>
-                <a href="#servicesEn" className="navigation">
+                <a href="#servicesEn" className="navigationHamb">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#latestEn" className="navigation">
+                <a href="#latestEn" className="navigationHamb">
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#whyEn" className="navigation">
+                <a href="#whyEn" className="navigationHamb">
                   References
                 </a>
               </li>
