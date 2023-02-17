@@ -36,7 +36,7 @@ const FormSp = () => {
   return (
     <div className="formCont" id="formSp">
       <div className="formIntro">
-        <h1 className="formh1">Contact me!</h1>
+        <h1 className="formh1">Contactame!</h1>
         <h2 className="formh2">
           Estoy para escucharte! Dejame tu comentario o duda en el siguiente
           formulario

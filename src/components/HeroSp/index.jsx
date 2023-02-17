@@ -11,7 +11,7 @@ const HeroSp = () => {
           <h2 className="paragraph">👋 ¡Hola! ¿Como estas? soy...</h2>
           <h1>Favio Gonzalez</h1>
           <h2 className="paragraph">FullStack developer</h2>
-          <p>
+          <p className='heroDescription'>
             Desarrollador independiente de Rosario, Argentina. Me mueven los
             desafios y la originalidad!
           </p>

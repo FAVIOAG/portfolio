@@ -23,7 +23,7 @@ a {
   transition: transform 0.5s;
 }
 
-.logo:hover{
+.logo:hover {
   transform: scale(1.2);
 }
 
@@ -35,7 +35,6 @@ a {
   padding: 1.3rem;
   transition: transform 0.5s;
   display: inline-block;
-  
 }
 
 .navigation:hover {
@@ -118,11 +117,11 @@ a {
     font-size: 0.8rem;
   }
 
-  .logo{
+  .logo {
     font-size: 1rem;
   }
 
-  .navigationHamb{
+  .navigationHamb {
     font-family: "Kalam", cursive;
     font-family: "Noto Sans Display", sans-serif;
     font-size: 1rem;
@@ -130,5 +129,24 @@ a {
     transition: transform 0.5s;
     display: inline-block;
   }
+}
+
+@media (max-width: 400px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
   }
 
+  .hambBtn {
+    font-size: 0.7rem;
+  }
+
+  .logo {
+    font-size: 0.7rem;
+  }
+  .contactButton {
+    width: 13vw;
+    height: 0.8vh;
+    font-size: 0.7rem;
+  }
+}

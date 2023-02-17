@@ -103,6 +103,16 @@
     justify-content: center;
   }
 
+  .btn {
+    text-align: center;
+  }
+
+  .heroDescription {
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 1.5rem;
+  }
+
   .totalCont::before {
     content: "";
     position: absolute;
@@ -126,6 +136,8 @@
 
   .paragraph {
     text-shadow: 1px 1px 0 black;
+    margin-left: 1.8rem;
+    
   }
   .devImg {
     display: none;

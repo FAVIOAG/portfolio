@@ -1,48 +1,49 @@
-.mainDiv{
-    display: flex;
+.mainDiv {
+  display: flex;
 }
-.navDiv{
-    flex-basis: 95%;
+.navDiv {
+  flex-basis: 95%;
 }
-.langDiv{
-   height: 10vh;
-   margin-top: 1.1rem;  
+.langDiv {
+  height: 10vh;
+  margin-top: 1.1rem;
 }
 
-.lang{
-    font-size: 1rem;
-    margin: 0;
-    padding-left: 0.2rem;
-
+.lang {
+  font-size: 1rem;
+  margin: 0;
+  padding-left: 0.2rem;
 }
 .langBtn {
-    font-family: "Noto Sans Display", sans-serif;
-    color: white;
-    padding: 0.3rem;
-    border-radius: 10px;
-    background: linear-gradient( to right, var(--main-color) 50%, black 50%)  left / 200%;
-    transition: background-position 1s ease;
-    cursor: pointer;
-    border: none;
-    margin-right: 0.5rem;
-  }
-  
-  .langBtn:hover {
-      background-position: right;
-  }
+  font-family: "Noto Sans Display", sans-serif;
+  color: white;
+  padding: 0.3rem;
+  border-radius: 10px;
+  background: linear-gradient(to right, var(--main-color) 50%, black 50%) left /
+    200%;
+  transition: background-position 1s ease;
+  cursor: pointer;
+  border: none;
+  margin-right: 0.5rem;
+}
 
-  @media (max-width: 900px){
- .lang{
+.langBtn:hover {
+  background-position: right;
+}
+
+@media (max-width: 900px) {
+  .lang {
     font-size: 0.7rem;
- }
+  }
 
- .langBtn{
+  .langBtn {
     width: 7 vw;
     height: 3vh;
     font-size: 0.7rem;
     padding: 0.1rem;
-    ;
- }
-
-
   }
+
+  .langDiv{
+    margin-top: 0.7rem;
+  }
+}
