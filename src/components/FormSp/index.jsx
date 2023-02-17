@@ -41,7 +41,7 @@ const FormSp = () => {
           Estoy para escucharte! Dejame tu comentario o duda en el siguiente
           formulario
         </h2>
-        <h3 className="formh2">How can I help you?</h3>
+        <h3 className="formh2">¿En que puedo ayudarte?</h3>
       </div>
       <div className="formDiv">
         <form onSubmit={handleSubmit} className="form">

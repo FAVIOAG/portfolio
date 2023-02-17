@@ -30,3 +30,19 @@
   .langBtn:hover {
       background-position: right;
   }
+
+  @media (max-width: 900px){
+ .lang{
+    font-size: 0.7rem;
+ }
+
+ .langBtn{
+    width: 7 vw;
+    height: 3vh;
+    font-size: 0.7rem;
+    padding: 0.1rem;
+    ;
+ }
+
+
+  }

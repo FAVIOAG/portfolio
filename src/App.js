@@ -17,7 +17,8 @@ import {
   CertificationEn,
   CertificationSp,
   FormSp,
-  FormEn
+  FormEn,
+  Footer
 } from "./components/";
 import React, { useState } from "react";
 
@@ -49,6 +50,7 @@ function App({ Component, pageProps }) {
       {lng === "sp" ? <WhyChoseMeSp /> : <WhyChoseMeEn />}
       {lng === "sp" ? <CertificationSp /> : <CertificationEn />}
       {lng === "sp" ? <FormSp /> : <FormEn />}
+      <Footer/>
     </>
   );
 }

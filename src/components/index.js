@@ -7,6 +7,7 @@ export {LatestSp} from './LatestSp'
 export {WhyChoseMeSp} from './WhyChoseMeSp'
 export {CertificationSp} from './CertificationSp'
 export {FormSp} from './FormSp'
+export {Footer} from './Footer'
 
 export {NavbarEn} from './NavbarEn'
 export {HeroEn} from './HeroEn'
