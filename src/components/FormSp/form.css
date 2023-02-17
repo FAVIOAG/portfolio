@@ -20,20 +20,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 
 .formh1 {
-    color: rgb(42, 109, 236);
-    text-align: center;
-  }
+  color: rgb(42, 109, 236);
+  text-align: center;
+}
 
 .formh2 {
   text-align: center;
   padding: 0.5rem;
 }
 .name {
-  margin: 0.5rem;
   width: 40vw;
 }
 
@@ -42,6 +41,12 @@
   width: 40vw;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.contBtnForm {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
 }
 
 .formBtn {
@@ -62,6 +67,25 @@
   background-position: right;
 }
 
+.newDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeMessage {
+  font-family: "Noto Sans Display", sans-serif;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(to right, var(--main-color) 50%, black 50%) left /
+    200%;
+  transition: background-position 1s ease;
+  cursor: pointer;
+  height: 2rem;
+  margin-left: 2rem;
+}
+
 @media (max-width: 992px) {
   .formh1 {
     font-size: 2rem;
@@ -74,17 +98,14 @@
     margin: 0;
     padding: 0.5rem;
   }
-
 }
 
-@media (max-width: 710px){
-    .formh1 {
-        font-size: 2rem;
-      }
-    
-      .formh2 {
-        font-size: 1rem;
-      }
-    
+@media (max-width: 710px) {
+  .formh1 {
+    font-size: 2rem;
+  }
 
+  .formh2 {
+    font-size: 1rem;
+  }
 }

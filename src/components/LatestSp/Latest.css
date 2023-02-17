@@ -45,7 +45,7 @@
   transition: transform 1s;
 }
 
-.latCardTit{
+.latCardTit {
   color: var(--main-color);
 }
 
@@ -57,7 +57,7 @@
   width: 30vw;
   text-align: center;
   justify-content: center;
- }
+}
 
 .gitLink {
   color: var(--main-color);
@@ -66,33 +66,30 @@
   transition: transform 1s;
 }
 
-.gitLink:hover{
+.gitLink:hover {
   transform: scale(1.1);
-
 }
 
-@media (min-width: 600px) and (max-width: 900px){
-
-  .latCardTit{
+@media (min-width: 600px) and (max-width: 900px) {
+  .latCardTit {
     font-size: 1rem;
   }
 
-  .gitLink{
+  .gitLink {
     font-size: 3rem;
   }
 }
 
-@media (max-width: 599px){
-
-  .latCardTit{
+@media (max-width: 599px) {
+  .latCardTit {
     font-size: 0.8rem;
   }
 
-  .gitLink{
+  .gitLink {
     font-size: 1.5rem;
   }
 
-  .latestP{
+  .latestP {
     font-size: 0.7rem;
   }
 }

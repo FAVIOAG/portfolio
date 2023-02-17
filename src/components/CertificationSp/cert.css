@@ -52,48 +52,44 @@
     flex-direction: column;
   }
 
- .imageDiv{
-  width: 50vw;
- }
+  .imageDiv {
+    width: 50vw;
+  }
 
- .certImg{
-  width: 40vw;
- }
+  .certImg {
+    width: 40vw;
+  }
 }
 
-@media (max-width: 688px){
+@media (max-width: 688px) {
   .certCont {
     display: flex;
     flex-direction: column;
   }
 
- .imageDiv{
-  width: 50vw;
-  height: 30vh;
- }
-
- .certImg{
-  width: 40vw;
-  height: 27vh;
-
-}
-.certTit{
-  font-size: 1.3rem;
-}
-.certDesc{
-  font-size: 1rem;
-}
-}
-
-@media (max-width: 415px){
-  .imageDiv{
-    height: 20vh;
-   }
-
-   .certImg{
-    height: 19vh;
-  
+  .imageDiv {
+    width: 50vw;
+    height: 30vh;
   }
 
+  .certImg {
+    width: 40vw;
+    height: 27vh;
+  }
+  .certTit {
+    font-size: 1.3rem;
+  }
+  .certDesc {
+    font-size: 1rem;
+  }
+}
 
+@media (max-width: 415px) {
+  .imageDiv {
+    height: 20vh;
+  }
+
+  .certImg {
+    height: 19vh;
+  }
 }

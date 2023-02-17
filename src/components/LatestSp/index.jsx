@@ -5,8 +5,8 @@ import wallet from "../../assets/wallet.jpg";
 import { BsGithub } from "react-icons/bs";
 const LatestSp = () => {
   return (
-    <>
-      <h1 className='mainTit'>Mis ultimos proyectos</h1>
+    <div id="latestSp">
+      <h1 className="mainTit">Mis ultimos proyectos</h1>
       <div className="latestCards">
         <div className="latestCardA">
           <h1 className="latCardTit">Hero Section</h1>
@@ -15,8 +15,14 @@ const LatestSp = () => {
             Desarrollo de una seccion Hero para un portfolio, incluye sectores
             de diseño no rectangulares con CSS
           </p>
-          <h2 className="latCardTit"> Clickea el icono para ver el proyecto completo</h2>
-          <a className="gitLink" href="https://favioag.github.io/TP_HERO/" target="_blank">
+          <h2 className="latCardTit">
+            Clickea el icono para ver el proyecto completo
+          </h2>
+          <a
+            className="gitLink"
+            href="https://favioag.github.io/TP_HERO/"
+            target="_blank"
+          >
             <BsGithub />
           </a>
         </div>
@@ -28,13 +34,19 @@ const LatestSp = () => {
             Desarrollo de una billetera virtual para control y flujo de gastos
             personales
           </p>
-          <h2 className="latCardTit">Clickea el icono para ver el proyecto completo</h2>
-          <a className="gitLink" href="https://favioag.github.io/walletd/" target="_blank">
+          <h2 className="latCardTit">
+            Clickea el icono para ver el proyecto completo
+          </h2>
+          <a
+            className="gitLink"
+            href="https://favioag.github.io/walletd/"
+            target="_blank"
+          >
             <BsGithub />
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export { LatestSp };

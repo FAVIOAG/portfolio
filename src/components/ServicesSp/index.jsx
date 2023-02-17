@@ -5,7 +5,7 @@ import { RxUpdate } from "react-icons/rx";
 import { MdTouchApp } from "react-icons/md";
 const ServicesSp = () => {
   return (
-    <div className="cardCont">
+    <div className="cardCont" id="servicesSp">
       <h2 className="services">Mis servicios</h2>
       <h1 className="title">¿Que puedo ofrecerte?</h1>
       <div className="cont">

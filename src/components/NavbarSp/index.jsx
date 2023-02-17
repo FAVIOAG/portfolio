@@ -16,48 +16,47 @@ const NavbarSp = () => {
 
   return (
     <div className="container">
-      
       <a href="#" className="logo">
         Favio Gonzalez
       </a>
-      <div className='items'>
-      <a href="#" className="navigation">
-        Acerca de...
-      </a>
-      <a href="#" className="navigation">
-        Servicios
-      </a>
-      <a href="#" className="navigation">
-        Portfolio
-      </a>
-      <a href="#" className="navigation">
-        Referencias
-      </a>
+      <div className="items">
+        <a href="#aboutSp" className="navigation">
+          Acerca de...
+        </a>
+        <a href="#servicesSp" className="navigation">
+          Servicios
+        </a>
+        <a href="#latestSp" className="navigation">
+          Proyectos
+        </a>
+        <a href="#whySp" className="navigation">
+          Referencias
+        </a>
       </div>
       <div className="hambMenu">
         <button className="hambBtn" onMouseEnter={openMenu}>
-          <BsMenuDown/> Navegacion
+          <BsMenuDown /> Navegacion
         </button>
         {open && (
           <div className="menu" onMouseLeave={closeMenu}>
             <ul>
               <li>
-                <a href="#" className="navigation">
+                <a href="#aboutSp" className="navigation">
                   Acerca de...
                 </a>
               </li>
               <li>
-                <a href="#" className="navigation">
+                <a href="#servicesSp" className="navigation">
                   Servicios
                 </a>
               </li>
               <li>
-                <a href="#" className="navigation">
+                <a href="#latestSp" className="navigation">
                   Portfolio
                 </a>
               </li>
               <li>
-                <a href="#" className="navigation">
+                <a href="#whySp" className="navigation">
                   Referencias
                 </a>
               </li>
@@ -65,7 +64,7 @@ const NavbarSp = () => {
           </div>
         )}
       </div>
-      <a className="contactButton">
+      <a href="#formSp" className="contactButton">
         <span className="icon">
           <FaPaperPlane />
         </span>

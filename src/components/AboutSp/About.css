@@ -1,6 +1,6 @@
 .totalContAbout {
   display: flex;
- }
+}
 
 .aboutImg {
   width: 35vw;
@@ -25,33 +25,32 @@
     background-image: url(./../../assets/picStand.jpg);
     background-size: contain;
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     position: relative;
-   }
+  }
 
-   .totalContAbout::before {
+  .totalContAbout::before {
     content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.5;
-  background-color: black;}
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    background-color: black;
+  }
 
-   .totalContAbout .aboutText {
+  .totalContAbout .aboutText {
     position: relative;
     z-index: 1;
     color: white;
   }
- 
- .aboutTitle {
-  text-shadow: 1px  1px 0 black;
 
+  .aboutTitle {
+    text-shadow: 1px 1px 0 black;
   }
 
-
-  .aboutImg{
+  .aboutImg {
     display: none;
   }
-   }
+}

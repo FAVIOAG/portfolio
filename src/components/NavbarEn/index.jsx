@@ -16,56 +16,55 @@ const NavbarEn = () => {
 
   return (
     <div className="container">
-      
       <a href="#" className="logo">
         Favio Gonzalez
       </a>
-      <div className='items'>
-      <a href="#" className="navigation">
-        About me...
-      </a>
-      <a href="#" className="navigation">
-        Services...
-      </a>
-      <a href="#" className="navigation">
-        Portfolio
-      </a>
-      <a href="#" className="navigation">
-        References
-      </a>
+      <div className="items">
+        <a href="#aboutEn" className="navigation">
+          About me...
+        </a>
+        <a href="#servicesEn" className="navigation">
+          Services...
+        </a>
+        <a href="#latestEn" className="navigation">
+          Projects
+        </a>
+        <a href="#whyEn" className="navigation">
+          References
+        </a>
       </div>
       <div className="hambMenu">
         <button className="hambBtn" onMouseEnter={openMenu}>
-          <BsMenuDown/> Navigation
+          <BsMenuDown /> Navigation
         </button>
         {open && (
           <div className="menu" onMouseLeave={closeMenu}>
             <ul>
               <li>
-                <a href="#" className="navigation">
-                  Acerca de...
+                <a href="#aboutEn" className="navigation">
+                  About me
                 </a>
               </li>
               <li>
-                <a href="#" className="navigation">
-                  Servicios
+                <a href="#servicesEn" className="navigation">
+                  Services
                 </a>
               </li>
               <li>
-                <a href="#" className="navigation">
-                  Portfolio
+                <a href="#latestEn" className="navigation">
+                  Projects
                 </a>
               </li>
               <li>
-                <a href="#" className="navigation">
-                  Referencias
+                <a href="#whyEn" className="navigation">
+                  References
                 </a>
               </li>
             </ul>
           </div>
         )}
       </div>
-      <a className="contactButton">
+      <a href='#formEn' className="contactButton">
         <span className="icon">
           <FaPaperPlane />
         </span>

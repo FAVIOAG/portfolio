@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import sitPic from "../../assets/sitPic.jpg";
 const HeroEn = () => {
   return (
-    <div>
+    <div id="heroEn">
       <div className="totalCont">
         <div className="firstCont">
           <h2 className="paragraph">👋 Hi there! How are you? I'm...</h2>
@@ -35,7 +35,7 @@ const HeroEn = () => {
           </div>
         </div>
         <div className="imgCont">
-          <img src={sitPic} alt="devImg" className='devImg'/>
+          <img src={sitPic} alt="devImg" className="devImg" />
         </div>
       </div>
     </div>

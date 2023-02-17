@@ -1,18 +1,22 @@
-import './About.css'
+import "./About.css";
 import React from "react";
-import picStand from './../../assets/picStand.jpg'
+import picStand from "./../../assets/picStand.jpg";
 const AboutSp = () => {
-
-return (
-<div className='totalContAbout'>
-    <img src={picStand} className='aboutImg' alt='fotoDePie' />
-    <div className='aboutText'>
-        <h1 className='aboutTitle'>Sobre mi...</h1>
-        <h2 className='descriptionAbout'>Dedicado y avocado a la tecnologia. Desde temprana edad formandome como tecnico electronico, y actualmente en mi trabajo, dedicado a las telecomunicaciones y nuevas tecnologias. Capacitandome en lenguajes de programacion y frameworks para crecer profesionalmente y desarrollarme laboralmente.   </h2>
+  return (
+    <div className="totalContAbout" id="aboutSp">
+      <img src={picStand} className="aboutImg" alt="fotoDePie" />
+      <div className="aboutText">
+        <h1 className="aboutTitle">Sobre mi...</h1>
+        <h2 className="descriptionAbout">
+          Dedicado y avocado a la tecnologia. Desde temprana edad formandome
+          como tecnico electronico, y actualmente en mi trabajo, dedicado a las
+          telecomunicaciones y nuevas tecnologias. Capacitandome en lenguajes de
+          programacion y frameworks para crecer profesionalmente y desarrollarme
+          laboralmente.
+        </h2>
+      </div>
     </div>
-</div>
-)
-
-}
+  );
+};
 
 export { AboutSp };

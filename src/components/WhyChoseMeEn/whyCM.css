@@ -27,35 +27,31 @@
 .mainCardTit {
   font-size: 1.6rem;
   text-align: center;
-  color: var(--main-color)
+  color: var(--main-color);
 }
 
-.cardP{
-    padding: 0.5rem;
-    text-align: center;
+.cardP {
+  padding: 0.5rem;
+  text-align: center;
 }
 
-@media (min-width: 300px) and (max-width: 600px){
+@media (min-width: 300px) and (max-width: 600px) {
+  .mainTit {
+    font-size: 1.3rem;
+  }
 
- .mainTit{
-  font-size: 1.3rem;
- }
- 
   .secTit {
-    font-size: 1rem;}
+    font-size: 1rem;
+  }
 
-    
-.descP {
-  font-size: 0.7rem;}
-
-  
-  
+  .descP {
+    font-size: 0.7rem;
+  }
 }
 
-@media (max-width: 930px){
-.cardWCont{
-  display: flex;
-  flex-direction: column;
-}
-
+@media (max-width: 930px) {
+  .cardWCont {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -1,10 +1,10 @@
 import "./../AboutSp/About.css";
 import React from "react";
-import picStand from './../../assets/picStand.jpg'
+import picStand from "./../../assets/picStand.jpg";
 
 const AboutEn = () => {
   return (
-    <div className="totalContAbout">
+    <div className="totalContAbout" id="aboutEn">
       <img src={picStand} className="aboutImg" alt="fotoDePie" />
       <div className="aboutText">
         <h1 className="aboutTitle">About me...</h1>

@@ -55,7 +55,6 @@
   height: 70vh;
   animation: animB 2s linear 0s 1 normal;
   margin-left: 3rem;
- 
 }
 
 .devImg {
@@ -98,39 +97,37 @@
     background-image: url(./../../assets/sitPic.jpg);
     background-size: contain;
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     position: relative;
     display: flex;
     justify-content: center;
-   }
-
-   .totalCont::before {
-    content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.5;
-  background-color: black;}
-    
-    .firstCont {
-      position: relative;
-      z-index: 1;
-      color: white; 
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center ;
-    }
-
-    .paragraph{
-   text-shadow:
-   1px  1px 0 black;
-    }
-  .devImg{
-    display: none;
   }
 
-  
+  .totalCont::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    background-color: black;
+  }
+
+  .firstCont {
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paragraph {
+    text-shadow: 1px 1px 0 black;
+  }
+  .devImg {
+    display: none;
+  }
 }
