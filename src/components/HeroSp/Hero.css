@@ -92,7 +92,7 @@
   }
 }
 
-@media (min-width: 450px) and (max-width: 992px) {
+@media (max-width: 900px) {
   .totalCont {
     background-image: url(./../../assets/sitPic.jpg);
     background-size: contain;
