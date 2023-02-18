@@ -18,7 +18,7 @@ const HeroEn = () => {
             <a
               href="https://api.whatsapp.com/send?phone=543416219049"
               className="btn"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <span className="wabtn">
                 <FaWhatsapp />
@@ -28,7 +28,7 @@ const HeroEn = () => {
             <a
               href="https://drive.google.com/file/d/120KB1y0EJiekY_QZyE7i2w7oP16QkzeE/view?usp=sharing"
               className="btn"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Download Cv
             </a>

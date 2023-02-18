@@ -15,8 +15,8 @@ const NavbarEn = () => {
   };
 
   return (
-    <div className="container">
-      <a href="#" className="logo">
+    <div className="container" id="navBar">
+      <a href="#navBar" className="logo">
         Favio Gonzalez
       </a>
       <div className="items">

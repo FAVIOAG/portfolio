@@ -7,19 +7,19 @@ const Footer = () => {
   return (
     <div className='footer'>
       <h1 className='footerTit'>Favio Gonzalez 2023</h1>
-      <span>Social:</span>
-      <a href="https://www.linkedin.com/in/favioag" className='footerBtn' target="_blank">
+      <span className='footerItem'>Social:</span>
+      <a href="https://www.linkedin.com/in/favioag" className='footerBtn' target="_blank" rel="noreferrer">
         <AiOutlineLinkedin />
       </a>
-      <span>WhatsApp:</span>
+      <span className='footerItem'>WhatsApp:</span>
       <a
         href="https://api.whatsapp.com/send?phone=543416219049"
         
-        target="_blank" className='footerBtn'
+        target="_blank" className='footerBtn' rel="noreferrer"
       >
         <FaWhatsapp />
       </a>
-    <span>Home:</span><a href="#" className='footerBtn'><AiOutlineHome/></a>
+    <span className='footerItem'>Home:</span><a href="#navBar" className='footerBtn'><AiOutlineHome/></a>
     </div>
   );
 };
